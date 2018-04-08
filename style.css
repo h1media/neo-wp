@@ -1,0 +1,19 @@
+/*
+Theme Name: Picasso Child - Multipurpose/Photography/Portfolio Theme
+Theme URI: http://gogetthemes.com
+Description: Photography & Creative Portfolio Theme
+Author: GoGetThemes
+Author URI: http://gogetthemes.com/
+Version: 1.0
+License URI: http://gogetthemes.com/
+Template: picasso
+*/
+
+/**
+ * Note! Parent theme must be in themes/picasso directory for child theme to work.
+ */
+
+@import url("../picasso/style.css");
+
+/* Theme customization starts here
+-------------------------------------------------------------- */
