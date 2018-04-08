@@ -17,3 +17,181 @@ Template: picasso
 
 /* Theme customization starts here
 -------------------------------------------------------------- */
+
+#main-wrapper .logo {
+    height: auto;
+    left: 50px;
+    max-height: 70px;
+    max-width: 210px;
+    top: 30px;
+    width: auto;
+    transform:scale(1);
+    top:30px;
+}
+
+#main-wrapper #main-menu ul li a {
+	padding:5px;
+}
+
+#main-wrapper #menu-wrap {
+	margin: 0!important;
+	background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+#main-wrapper #menu-wrap.closed-menu {
+	box-shadow:none;
+}
+
+#main-wrapper .visible-menu .logo {
+	transform:scale(1);
+	top:30px;
+}
+
+#main-wrapper .menu-item-has-children a {
+    padding: 24px 20px!important;
+}
+
+#main-wrapper #menu-wrap .menu li ul {
+    background-color: #212121;
+    padding:0; 
+}
+
+#footer_plus {
+    background: #222222;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    width: 90%;
+    bottom: -33px;
+    z-index: 999;
+}
+
+.menu span.lava-menu-box {
+	border-top: 0;
+	border-bottom: 1px solid #af0917;
+	display: block;
+    height: 100%; 
+    z-index: 1;
+}
+
+.menu > li.menu-item-has-children > a::before, #main-menu ul li .sub-menu li.menu-item-has-children a::before {
+	left: -3px;
+}
+
+.menu span.lava-menu-box:before {
+	display: none;
+}
+
+.breadcrumb {
+	background: transparent;
+}
+
+.dark-skin #page-footer {
+	background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0 !important;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+    padding: 0px 40px;
+    bottom: 0!important;
+}
+
+.social-button {
+	height: auto!important;
+}
+
+.ls-bottom-nav-wrapper {
+	display: none;
+}
+
+.wpcf7-form p {
+	display: inline-block!important;
+	font-family: Dosis;
+}
+
+.wpcf7-form label {
+	font-weight: normal;
+}
+
+.wpcf7-form input[type="email"], .wpcf7-form input[type="text"] {
+	background:white;
+	border-radius: 50px;
+	font-size: 16px;
+	width: 100%;
+}
+.wpcf7-form textarea {	
+	background:white;
+	height: 146px;
+    padding: 20px 30px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+
+.wp-image-1549 {
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+h2.heading_edit2 {
+    background-color: #B11116;
+    border-radius: 10px;
+}
+
+.chart .percentage {
+    position: relative;
+    top: 94px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 768px) {
+	.logo {
+		top:10px!important;
+	}
+	.logo img {
+		max-height: 40px!important;
+	}
+	#main-wrapper .menu-item-has-children a {
+		padding: 5px!important;
+	}
+	#page-footer .social-button {
+		max-width: 100%!important;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#main-wrapper .menu-wrap-b .menu {
+	    padding: 20px;
+	    display: block;
+	    float: right;
+	    margin-right: 110px;
+	    margin-top: 0;
+	    margin-bottom: 0;
+	}
+	#main-menu ul li .sub-menu a {
+		padding: 10px 20px!important; 
+	}
+	#main-menu ul li .sub-menu li:first-child a {
+		border-radius:5px 5px 0 0; 
+	}
+	#main-menu ul li .sub-menu li a:after {
+		background-color:#121212!important; 
+		border-left:1px solid #af0917;
+	}
+	#main-menu ul li .sub-menu li a:after span { 
+		color: #af0917!important;
+	}
+	#main-menu ul li .sub-menu li a:hover { 
+		color: #af0917!important;
+	}
+}
